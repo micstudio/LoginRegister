@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Login/Register Page</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="picture">
+            <div class="overlay">
+                Hello<br />
+                <span class="over-span">World!</span>
+            </div>
+        </div>
+        <div class="form-box">
+
+
+
+            <form id="login" class="input-group">
+                <img src="img/logo.png" alt="">
+                <div class="eff">
+                    <div class="eff">
+                        <input type="text" required>
+                        <label>LOGIN</label>
+                    </div>
+                    <div class="eff">
+                        <input type="text" required>
+                        <label>PASSWORD</label>
+                    </div>
+                    <button type="submit" class="submit-btn">Login</button>
+                    <p>Dont have an account? <span id="btn-register">Create your account!</span></p>
+
+                    <div class="social">
+                        <p>Login with social media:</p>
+                        <div class="social__container">
+                            <i class="fab fa-twitter-square fa-2x"></i>
+                            <i class="fab fa-google-plus-square fa-2x"></i>
+                            <i class="fab fa-facebook-square fa-2x"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+            <form id="register" class="input-group">
+                <h2>Register Form</h2>
+                <form class="eff">
+                    <div class="eff">
+                        <input type="text" required>
+                        <label>LOGIN</label>
+                    </div>
+                    <div class="eff">
+                        <input type="EMAIL" required>
+                        <label>E-MAIL</label>
+                    </div>
+                    <div class="eff">
+                        <input type="text" required>
+                        <label>PASSWORD</label>
+                    </div>
+                    <div class="eff">
+                        <input type="text" required>
+                        <label>PASSWORD</label>
+                    </div>
+                    <!-- <span id="btn-login" >lolek</span> -->
+                    <div class="button-box">
+                        <button type="reset" id="btn-login" class="back-btn">BACK</button>
+                        <button type="submit" class="submit-btn">Register</button>
+                    </div>
+                </form>
+
+            </form>
+
+        </div>
+
+
+    </div>
+
+    <script src="init.js"></script>
+
+</body>
+
+</html>
